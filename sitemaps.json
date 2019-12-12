@@ -1,0 +1,72 @@
+[{
+    "er1": [{
+            "_id": "test_sitemap1",
+            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+            "selectors": [{
+                "id": "title",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "button",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "button[data-target='#exampleModalLive']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }]
+        }
+
+    ],
+    "er2": [{
+            "_id": "test_sitemap2",
+            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+            "selectors": [{
+                "id": "title",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "button",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "button[data-target='#exampleModalLive']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }]
+        }
+
+    ],
+    "er3": [{
+            "_id": "test_sitemap3",
+            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+            "selectors": [{
+                "id": "title",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "button",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "button[data-target='#exampleModalLive']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }]
+        }
+
+    ]
+}
+]
