@@ -3,7 +3,7 @@ const select = document.querySelector("#select");
 const textarea = document.querySelector('#urls')
 const btn=document.querySelector('#btn')
 const output = document.querySelector('#output')
-const json = '/sitemaps.json'
+const json = '../sitemaps.json'
 
 let data1 = ''
 let urls = ''
