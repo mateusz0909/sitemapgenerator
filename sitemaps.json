@@ -1,20 +1,78 @@
 [{
-    "er1": [{
-            "_id": "test_sitemap1",
-            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+    "rohlik_cz": [{
+            "_id": "rohlik_cz",
+            "startUrl": [
+                "https://rohlik.cz/745309"
+
+            ],
+            "selectors": [{
+                    "id": "Headline",
+                    "type": "SelectorText",
+                    "parentSelectors": [
+                        "_root"
+                    ],
+                    "selector": "h2",
+                    "multiple": false,
+                    "regex": "",
+                    "delay": 0
+                },
+                {
+                    "id": "Desription",
+                    "type": "SelectorText",
+                    "parentSelectors": [
+                        "_root"
+                    ],
+                    "selector": "div.gNMyis",
+                    "multiple": false,
+                    "regex": "",
+                    "delay": 0
+                },
+                {
+                    "id": "images_in_total",
+                    "type": "SelectorGroup",
+                    "parentSelectors": [
+                        "_root"
+                    ],
+                    "selector": ".slider-slide",
+                    "delay": 0,
+                    "extractAttribute": ""
+                }
+            ]
+        }
+
+    ],
+    "bangerhead_se": [{
+            "_id": "bangerhead_se",
+            "startUrl": ["https://www.bangerhead.se/?product=bangerhead-soft-spot-duo"],
             "selectors": [{
                 "id": "title",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "selector": "h1.product-name",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
             }, {
-                "id": "button",
+                "id": "description",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": "button[data-target='#exampleModalLive']",
+                "selector": "div#Produktinfo.content",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "rating_stars",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "div.recensioner-header",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "ratings_count",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "p.based-on",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
@@ -22,22 +80,38 @@
         }
 
     ],
-    "er2": [{
-            "_id": "test_sitemap2",
-            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+    "bootz_com/dk": [{
+            "_id": "bootz_com/dk",
+            "startUrl": ["https://www.boozt.com/dk/da/calvin-klein-fragrance/ck-one-deo-natural-spray-150ml_15798259/19192018?navId=66086&group=search_brand&position=1000000"],
             "selectors": [{
                 "id": "title",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "selector": "title",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
             }, {
-                "id": "button",
+                "id": "description",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": "button[data-target='#exampleModalLive']",
+                "selector": ".product-information__block p",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "stars",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".inner-wrap > ul",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "reviews_count",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "em",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
@@ -45,28 +119,365 @@
         }
 
     ],
-    "er3": [{
-            "_id": "test_sitemap3",
-            "startUrl": ["https://getbootstrap.com/docs/4.4/components/modal/"],
+    "eleven_se": [{
+            "_id": "eleven_se",
+            "startUrl": ["https://eleven.se/parfym/doft/exklusiva/calvin-klein-eternity-edp#6069"],
             "selectors": [{
                 "id": "title",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": ".col-md-9 > p:nth-of-type(5)",
+                "selector": "h1",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
             }, {
-                "id": "button",
+                "id": "quantity",
                 "type": "SelectorText",
                 "parentSelectors": ["_root"],
-                "selector": "button[data-target='#exampleModalLive']",
+                "selector": "div.single-product__color-variant-top",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "description",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "div#para-17840",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "ratings_start",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "p.stars__averagerating",
                 "multiple": false,
                 "regex": "",
                 "delay": 0
             }]
         }
 
-    ]
-}
-]
+    ],
+    "ellos_se": [{
+            "_id": "ellos_se",
+            "startUrl": ["https://www.ellos.se/calvin-klein/presentask-calvin-klein-ck-one-edt-50-ml-deo-stick-75-ml/1576862"],
+            "selectors": [{
+                "id": "title",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "h1[itemprop='name']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "description",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "p[itemprop='description']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "rating_stars",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "span[itemprop='ratingValue']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "ratings_count",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "span[itemprop='reviewCount']",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }]
+        }
+
+    ],
+    "lyko_se": [{
+            "_id": "lyko_se",
+            "startUrl": ["https://www.lyko.se/calvin-klein/calvin-klein-in2u-women-edt-100ml"],
+            "selectors": [{
+                "id": "title",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".WZUcQF",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "description",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": "._32-Kpi p",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "reviews_stars",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".psW-Fx h1",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }, {
+                "id": "ratings_count",
+                "type": "SelectorText",
+                "parentSelectors": ["_root"],
+                "selector": ".x1WAm5",
+                "multiple": false,
+                "regex": "",
+                "delay": 0
+            }]
+        }
+
+    ],
+    "nordicfeel_se": [{
+        "_id": "nordicfeel_se",
+        "startUrl": ["https://www.nordicfeel.se/doft/parfym/damparfym/calvin-klein-eternity-6069"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "span.product--details--name",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "quantity",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "span.product--details--volume",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "[itemprop='description'] p",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "rating_stars",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".sr-only",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "rating",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".star-clickable a",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }]
+    }],
+    "parfym_se": [{
+        "_id": "parfym_se",
+        "startUrl": ["https://www.parfym.se/parfym/calvin-klein/eternity-edp"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "h1",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".medium-offset-1 div.row:nth-of-type(n+2)",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "ratingavg",
+            "type": "SelectorElementAttribute",
+            "parentSelectors": ["_root"],
+            "selector": "iframe",
+            "multiple": false,
+            "extractAttribute": "src",
+            "delay": 0
+        }]
+    }],
+    "shopping4net_se": [{
+        "_id": "shopping4net_se",
+        "startUrl": ["https://www.shopping4net.se/Skoenhet/Foer-henne/Parfym/Eau-de-toilette/Be-Delicious-Pool-Party-Mai-Tai-Eau-de-toilette.htm"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "header",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".prodinfo p",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }]
+    }],
+    "matas_dk": [{
+        "_id": "matas_dk",
+        "startUrl": ["https://www.matas.dk/paco-rabanne-lady-million-eau-de-parfum-50-ml", "https://www.matas.dk/biotherm-baume-corps-bodylotion-til-toer-hud-400ml"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "h1",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorElementClick",
+            "parentSelectors": ["_root"],
+            "selector": ".accordion__block--active span.accordion__readmoretoggle--showmore",
+            "multiple": false,
+            "delay": 0,
+            "clickElementSelector": ".accordion__block--active span.accordion__readmoretoggle--showmore",
+            "clickType": "clickOnce",
+            "discardInitialElements": "do-not-discard",
+            "clickElementUniquenessType": "uniqueText"
+        }, {
+            "id": "description_text",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".accordion__block--active div.accordion__block-content",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "rating_stars",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "span.product-reviews__heading-score",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "review_count",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".product-reviews__average div",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }]
+    }],
+    "nicehair_dk": [{
+        "_id": "nicehair_dk",
+        "startUrl": ["https://nicehair.dk/olaplex-bonding-oil-no7-30-ml.html?nosto=frontpage-nosto-1-fallback-nosto-1"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "h1",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "div.accordion-item:nth-of-type(1) p:nth-of-type(1)",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "reviews_stars",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".accordion-reviews-header h3",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "reviews_count",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".accordion-reviews-header p:nth-of-type(1)",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }]
+    }],
+    "stylepit_dk": [{
+        "_id": "stylepit_dk",
+        "startUrl": ["https://www.stylepit.dk/ray-ban-klar-round-metal-143476-482"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "h1",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "div.pr-dn-tt",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "trustpilot_reviews_link",
+            "type": "SelectorElementAttribute",
+            "parentSelectors": ["_root"],
+            "selector": "iframe",
+            "multiple": false,
+            "extractAttribute": "src",
+            "delay": 0
+        }]
+    }],
+    "magasin_dk": [{
+        "_id": "magasin_dk",
+        "startUrl": ["https://www.magasin.dk/s/mdn/the-scent-private-accord-eau-de-toilette/VS009616.html"],
+        "selectors": [{
+            "id": "title",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": ".contenttop",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }, {
+            "id": "click more",
+            "type": "SelectorElementClick",
+            "parentSelectors": ["_root"],
+            "selector": "div.expand-toggle",
+            "multiple": false,
+            "delay": 0,
+            "clickElementSelector": "div.expand-toggle",
+            "clickType": "clickOnce",
+            "discardInitialElements": "do-not-discard",
+            "clickElementUniquenessType": "uniqueText"
+        }, {
+            "id": "description",
+            "type": "SelectorText",
+            "parentSelectors": ["_root"],
+            "selector": "div[itemprop='description']",
+            "multiple": false,
+            "regex": "",
+            "delay": 0
+        }]
+    }]
+
+
+
+}]
