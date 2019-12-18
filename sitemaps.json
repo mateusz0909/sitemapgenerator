@@ -476,7 +476,8 @@
             "regex": "",
             "delay": 0
         }]
-    }]
+    }], 
+    "empik":[{"_id":"empik","startUrl":["https://www.empik.com/szukaj/produkt?q=4210201201083&start=1&resultsPP=10&catalogType=all&searchCategory=all"],"selectors":[{"id":"link","type":"SelectorLink","parentSelectors":["_root"],"selector":"a.seoTitle","multiple":false,"delay":0},{"id":"click","type":"SelectorElementClick","parentSelectors":["link"],"selector":".ta-tab-details span","multiple":false,"delay":0,"clickElementSelector":".ta-tab-details span","clickType":"clickOnce","discardInitialElements":"do-not-discard","clickElementUniquenessType":"uniqueText"},{"id":"idsklp","type":"SelectorText","parentSelectors":["link"],"selector":"tr:contains('Indeks:') span","multiple":false,"regex":"","delay":0}]}]
 
 
 
