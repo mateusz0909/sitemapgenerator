@@ -1,46 +1,5 @@
 [{
-    "rohlik_cz": [{
-            "_id": "rohlik_cz",
-            "startUrl": [
-                "https://rohlik.cz/745309"
-
-            ],
-            "selectors": [{
-                    "id": "Headline",
-                    "type": "SelectorText",
-                    "parentSelectors": [
-                        "_root"
-                    ],
-                    "selector": "h2",
-                    "multiple": false,
-                    "regex": "",
-                    "delay": 0
-                },
-                {
-                    "id": "Desription",
-                    "type": "SelectorText",
-                    "parentSelectors": [
-                        "_root"
-                    ],
-                    "selector": "div.gNMyis",
-                    "multiple": false,
-                    "regex": "",
-                    "delay": 0
-                },
-                {
-                    "id": "images_in_total",
-                    "type": "SelectorGroup",
-                    "parentSelectors": [
-                        "_root"
-                    ],
-                    "selector": ".slider-slide",
-                    "delay": 0,
-                    "extractAttribute": ""
-                }
-            ]
-        }
-
-    ],
+    "mall_cz": {"_id":"mall_cz","startUrl":["https://mall.cz/id/1184558"],"selectors":[{"id":"mall id","type":"SelectorText","parentSelectors":["_root"],"selector":"span.pdrt__catalog-number > span","multiple":false,"regex":"","delay":0}]},
     "bangerhead_se": [{
             "_id": "bangerhead_se",
             "startUrl": ["https://www.bangerhead.se/?product=bangerhead-soft-spot-duo"],
