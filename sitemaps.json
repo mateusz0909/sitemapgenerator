@@ -1,4 +1,3 @@
 [{ "rohlik_cz":[{"_id":"rohlik_cz","startUrl":["http://example.com"],"selectors":[{"id":"rpc","type":"SelectorElementAttribute","parentSelectors":["_root"],"selector":"#productDetail > div.sc-3gouww-1.bPCJo > div.sc-3gouww-4.knTISS > div:nth-child(4) > div.sc-3gouww-16.kfNBFt > div > button","multiple":false,"extractAttribute":"data-product-id","delay":0}]}],
-    "mall_cz": [{"_id":"mall_cz","startUrl":["https://mall.cz/id/1184558"],"selectors":[{"id":"mall id","type":"SelectorText","parentSelectors":["_root"],"selector":"span.pdrt__catalog-number > span","multiple":false,"regex":"","delay":0}]}],
-    
+    "mall_cz": [{"_id":"mall_cz","startUrl":["https://mall.cz/id/1184558"],"selectors":[{"id":"mall id","type":"SelectorText","parentSelectors":["_root"],"selector":"span.pdrt__catalog-number > span","multiple":false,"regex":"","delay":0}]}]
 }]
