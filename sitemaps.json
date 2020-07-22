@@ -1,5 +1,5 @@
 [{
-    "mall_cz": {"_id":"mall_cz","startUrl":["https://mall.cz/id/1184558"],"selectors":[{"id":"mall id","type":"SelectorText","parentSelectors":["_root"],"selector":"span.pdrt__catalog-number > span","multiple":false,"regex":"","delay":0}]},
+    "mall_cz": [{"_id":"mall_cz","startUrl":["https://mall.cz/id/1184558"],"selectors":[{"id":"mall id","type":"SelectorText","parentSelectors":["_root"],"selector":"span.pdrt__catalog-number > span","multiple":false,"regex":"","delay":0}]}],
     "bangerhead_se": [{
             "_id": "bangerhead_se",
             "startUrl": ["https://www.bangerhead.se/?product=bangerhead-soft-spot-duo"],
